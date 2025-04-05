@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { AtSign, Flask, Github, Lock } from "lucide-react";
+import { AtSign, Beaker, Github, Lock } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 interface AuthFormProps {
@@ -157,7 +157,7 @@ export default function Auth() {
       <div className="w-full max-w-md mx-auto mb-8">
         <div className="text-center">
           <Link to="/" className="inline-flex items-center justify-center space-x-2">
-            <Flask className="h-8 w-8 text-primary" />
+            <Beaker className="h-8 w-8 text-primary" />
             <span className="font-bold text-2xl tracking-tight">DREAM</span>
           </Link>
           <h1 className="text-2xl font-bold mt-6 mb-2">Welcome to DREAM</h1>

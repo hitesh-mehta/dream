@@ -1,7 +1,6 @@
-
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Menu, X, Flask, BrainCircuit, Atom, BookOpen, Database } from "lucide-react";
+import { Menu, X, Beaker, BrainCircuit, Atom, BookOpen, Database } from "lucide-react";
 import { ThemeSwitcher } from "./ThemeSwitcher";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -19,7 +18,7 @@ export function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <Flask className="h-7 w-7 text-primary" />
+              <Beaker className="h-7 w-7 text-primary" />
               <span className="font-bold text-xl tracking-tight">DREAM</span>
             </Link>
             <div className="hidden md:ml-10 md:flex md:space-x-8">
@@ -68,7 +67,6 @@ export function Navbar() {
   );
 }
 
-// Desktop NavLink component
 function NavLink({ to, children, icon }: { to: string; children: React.ReactNode; icon?: React.ReactNode }) {
   return (
     <Link
@@ -81,7 +79,6 @@ function NavLink({ to, children, icon }: { to: string; children: React.ReactNode
   );
 }
 
-// Mobile NavLink component
 function MobileNavLink({ to, children, icon }: { to: string; children: React.ReactNode; icon?: React.ReactNode }) {
   return (
     <Link

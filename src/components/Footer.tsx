@@ -1,6 +1,5 @@
-
 import { Link } from "react-router-dom";
-import { Flask, Github, Twitter, Linkedin } from "lucide-react";
+import { Beaker, Github, Twitter, Linkedin } from "lucide-react";
 
 export function Footer() {
   return (
@@ -9,7 +8,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between">
           <div className="mb-8 md:mb-0">
             <Link to="/" className="flex items-center space-x-2">
-              <Flask className="h-6 w-6 text-primary" />
+              <Beaker className="h-6 w-6 text-primary" />
               <span className="font-bold text-xl tracking-tight">DREAM</span>
             </Link>
             <p className="mt-2 text-sm text-muted-foreground max-w-md">

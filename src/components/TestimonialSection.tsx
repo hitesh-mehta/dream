@@ -1,4 +1,3 @@
-
 import { cn } from "@/lib/utils";
 import { Quote } from "lucide-react";
 
@@ -21,7 +20,6 @@ export function TestimonialSection() {
               author={testimonial.author}
               title={testimonial.title}
               organization={testimonial.organization}
-              avatarSrc={testimonial.avatarSrc}
               highlightColor={testimonial.highlightColor}
             />
           ))}
